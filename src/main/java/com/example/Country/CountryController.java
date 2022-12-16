@@ -43,8 +43,5 @@ public class CountryController {
 		return "Country Deleted Successfully";
 	}
 	
-	@GetMapping("/test/{num1}/{num2}")
-	int ketan(@PathVariable int num1,@PathVariable int num2 ) {
-		return num1+num2;
-	}
+
 }
